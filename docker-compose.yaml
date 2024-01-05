@@ -1,0 +1,14 @@
+
+version: '3.8'
+
+services:
+  nestjs-app:
+    build:
+      context : .
+      dockerfile : ./Dockerfile
+    container_name: nestjs-mp3-parser
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: dev
+      PORT: 3000

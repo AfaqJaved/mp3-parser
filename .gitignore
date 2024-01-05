@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+
+# NestJS output folder
+dist/
+
+# NestJS logs
+logs/
+
+# NestJS environment file
+.env
+
+# Visual Studio Code configuration folder
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# NestJS generated Swagger API documentation
+swagger/
+
+# NestJS coverage folder
+coverage/
+
+# Dependency directories
+.jest/
+
+# npm lock file
+package-lock.json
